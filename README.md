@@ -22,4 +22,4 @@ import 'small-flexgrid/prefixed.css'
 <link rel="stylesheet" href="https://unpkg.com/small-flexgrid/prefixed.min.css">
 ```
 
-Usecases and API are identical to [flexboxgrid by kristoferjoseph](flexboxgrid.com)
+Usecases and API are identical to [flexboxgrid by kristoferjoseph](http://flexboxgrid.com)
