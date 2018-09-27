@@ -2,9 +2,9 @@
   "name": "small-flexgrid",
   "version": "0.0.0",
   "description": "A small flexbox grid written in Less",
-  "main": "flexgrid.less",
+  "main": ".less",
   "scripts": {
-    "build": "lessc flexgrid.less flexgrid.css --autoprefix",
+    "build": "lessc .less .css --autoprefix",
     "postversion": "npm run build",
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
