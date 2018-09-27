@@ -1,6 +1,6 @@
 {
   "name": "small-flexgrid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small flexbox grid written in Less",
   "main": ".less",
   "scripts": {
