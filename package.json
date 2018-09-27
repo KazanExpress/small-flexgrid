@@ -4,8 +4,14 @@
   "description": "A small flexbox grid written in Less",
   "main": ".less",
   "scripts": {
-    "build": "lessc .less .css --autoprefix",
-    "postversion": "npm run build",
+    "less:autoprefix": "lessc .less prefixed.css --autoprefix",
+    "minify:autoprefix": "uglifycss ./prefixed.css > prefixed.min.css",
+    "less": "lessc .less .css",
+    "minify": "uglifycss ./.css > min.css",
+    "build": "npm run less && npm run minify",
+    "build:autoprefix": "npm run less:autoprefix && npm run minify:autoprefix",
+    "build:all": "npm run build && npm run build:autoprefix",
+    "postversion": "npm run build:all",
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
     "major": "npm version major && npm publish"
@@ -41,6 +47,7 @@
   "devDependencies": {
     "browserslist": "^4.1.1",
     "less": "^3.8.1",
-    "less-plugin-autoprefix": "^2.0.0"
+    "less-plugin-autoprefix": "^2.0.0",
+    "uglifycss": "0.0.29"
   }
 }
