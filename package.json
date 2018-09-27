@@ -1,0 +1,46 @@
+{
+  "name": "small-flexgrid",
+  "version": "0.0.0",
+  "description": "A small flexbox grid written in Less",
+  "main": "flexgrid.less",
+  "scripts": {
+    "build": "lessc flexgrid.less flexgrid.css --autoprefix",
+    "postversion": "npm run build",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish"
+  },
+  "browserslist": [
+    "last 10 versions",
+    "cover 100%",
+    "ie >= 6",
+    "opera >= 10",
+    "chrome >= 20",
+    "firefox >= 20",
+    "safari >= 5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KazanExpress/small-flexgrid.git"
+  },
+  "keywords": [
+    "flexbox",
+    "grid",
+    "less",
+    "css",
+    "styles",
+    "small",
+    "versatile"
+  ],
+  "author": "KazanExpress",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KazanExpress/small-flexgrid/issues"
+  },
+  "homepage": "https://github.com/KazanExpress/small-flexgrid#readme",
+  "devDependencies": {
+    "browserslist": "^4.1.1",
+    "less": "^3.8.1",
+    "less-plugin-autoprefix": "^2.0.0"
+  }
+}
