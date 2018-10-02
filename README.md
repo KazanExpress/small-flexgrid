@@ -6,6 +6,14 @@
 
 `npm install --save small-flexgrid`
 
+```less
+@import 'small-flexgrid';
+/* or, for css: */
+@import 'small-flexgrid/.css';
+/* or, for prefixed css */
+@import 'small-flexgrid/prefixed.css';
+```
+
 ```js
 import 'small-flexgrid'
 // or, for css:
@@ -22,4 +30,9 @@ import 'small-flexgrid/prefixed.css'
 <link rel="stylesheet" href="https://unpkg.com/small-flexgrid/prefixed.min.css">
 ```
 
-Usecases and API are identical to [flexboxgrid by kristoferjoseph](http://flexboxgrid.com)
+Usecases and API are almost identical to [flexboxgrid by kristoferjoseph](http://flexboxgrid.com)
+
+You can also import media variables separately:
+```less
+@import 'small-flexgrid/vars.less';
+```
