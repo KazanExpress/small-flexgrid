@@ -1,12 +1,12 @@
-# small-flexgrid.less
+# small-flexgrid.styl
 
-> A small flexgrid written in Less
+> A small flexgrid written in Stylus
 
 ## Usage
 
 `npm install --save small-flexgrid`
 
-```less
+```scss
 @import 'small-flexgrid';
 /* or, for css: */
 @import 'small-flexgrid/.css';
@@ -15,11 +15,11 @@
 ```
 
 ```js
-import 'small-flexgrid'
+import 'small-flexgrid';
 // or, for css:
-import 'small-flexgrid/.css'
+import 'small-flexgrid/.css';
 // or, for prefixed css
-import 'small-flexgrid/prefixed.css'
+import 'small-flexgrid/prefixed.css';
 ```
 
 **OR**
@@ -30,9 +30,31 @@ import 'small-flexgrid/prefixed.css'
 <link rel="stylesheet" href="https://unpkg.com/small-flexgrid/prefixed.min.css">
 ```
 
-Usecases and API are almost identical to [flexboxgrid by kristoferjoseph](http://flexboxgrid.com)
-
-You can also import media variables separately:
-```less
-@import 'small-flexgrid/vars.less';
+You can also import mixins separately:
+```scss
+@import 'small-flexgrid/src/mixins';
 ```
+
+**THEN**
+
+in your styles
+
+```scss
+cols-amount = 12 // basically, any amount you want
+sizes = {        // basically, any breakpoints you want
+  all: 0rem
+  xs: 20rem
+  sm: 33.75rem
+  md: 48rem
+  lg: 63.75rem
+  xl: 76.25rem
+}
+col-suffix = '-my-cool'
+
+cols(cols-amount, sizes, '-my-cool') // generate all columns
+
+helpers(cols-amount, sizes, '-my-cool')  // generate helpers
+
+cols-with-helpers(cols-amount, sizes, '-my-cool') // generate all columns AND helpers
+```
+

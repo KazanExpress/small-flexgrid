@@ -1,0 +1,133 @@
+media(min = 0, max = 0)
+  if max
+    if min
+      @media (min-width: min) and (max-width: max)
+        {block}
+    else
+      @media (max-width: max)
+        {block}
+  else if min
+    @media (min-width: min)
+      {block}
+  else 
+    {block}
+
+populate-misc(name)
+  .start-{name} {
+    justify-content flex-start
+    text-align left
+  }
+  .center-{name} {
+    justify-content center
+    text-align center
+  }
+  .end-{name} {
+    justify-content flex-end
+    text-align right
+  }
+  .around-{name} {
+    justify-content space-around
+  }
+  .between-{name} {
+    justify-content space-between
+  }
+  .stretch-horizontal-{name} {
+    justify-content stretch
+  }
+  .stretch-vertical-{name} {
+    align-items stretch
+  }
+  .top-{name} {
+    align-items flex-start
+    vertical-align top
+  }
+  .middle-{name} {
+    align-items center
+    vertical-align middle
+  }
+  .bottom-{name} {
+    align-items flex-end
+    vertical-align bottom
+  }
+  .first-{name} {
+    order -1
+  }
+  .last-{name} {
+    order 1
+  }  
+
+populate-width(name, size, next-size)
+  if name != all
+    +media(size, next-size)
+      .{name} {
+        width size
+      }
+      .hidden-{name} {
+        display none
+      }
+
+    +media(0, next-size)
+      .pre-{name} {
+        width size
+      }
+
+    +media(size)
+      .post-{name} {
+        width size
+      }
+
+populate-cols(name, size, cols-amount, suffix)
+  for i in range(1, cols-amount)
+    value = i * 100% / cols-amount;
+
+    if i == cols-amount
+      .col{suffix}-{name}-{i}, .col{suffix}-{name} {
+        flex-basis 100%
+        max-width 100%
+      }
+    else
+      .col{suffix}-{name}-{i} {
+        flex-basis value
+        max-width value
+      }
+  
+    .offset{suffix}-{name}-{i} {
+      margin-left value
+    }
+
+cols(cols-amount, sizes, suffix = cols-amount, media-mixin = null)
+  for name, size in sizes
+    size-values = values(sizes);
+    next-size = size-values[index(size-values, size) + 1];
+
+    +media(size)
+      populate-cols(name, size, cols-amount, suffix)
+      if media-mixin
+        media-mixin(name, size, next-size, sizes, cols-amount, suffix)
+
+    if length(arguments) > 4
+      for arg in slice(arguments, 4)
+        arg(name, size, next-size, sizes, cols-amount, suffix)
+
+helpers(cols-amount, sizes)
+  for name, size in sizes
+    size-values = values(sizes);
+    next-size = size-values[index(size-values, size) + 1];
+
+    +media(size)
+      populate-misc(name)
+
+    populate-width(name, size, next-size)
+
+  .hidden {
+    display none
+  }
+
+cols-with-helpers(cols-amount, sizes, suffix = cols-amount)
+  cols(cols-amount, sizes, suffix, populate-misc, populate-width)
+
+  .hidden {
+    display none
+  }
+
+cols-with-helpers(12, { all: 0, xs: 12rem })

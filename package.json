@@ -2,14 +2,14 @@
   "name": "small-flexgrid",
   "version": "1.1.0",
   "description": "A small flexbox grid written in Less",
-  "main": ".less",
+  "main": "./src/index.styl",
   "scripts": {
-    "less:autoprefix": "lessc .less prefixed.css --autoprefix",
+    "styl:autoprefix": "stylus -u autoprefixer-stylus < ./src/index.styl > prefixed.css",
     "minify:autoprefix": "uglifycss ./prefixed.css > prefixed.min.css",
-    "less": "lessc .less .css",
+    "styl": "stylus < ./src/index.styl > .css",
     "minify": "uglifycss ./.css > min.css",
-    "build": "npm run less && npm run minify",
-    "build:autoprefix": "npm run less:autoprefix && npm run minify:autoprefix",
+    "build": "npm run styl && npm run minify",
+    "build:autoprefix": "npm run styl:autoprefix && npm run minify:autoprefix",
     "build:all": "npm run build && npm run build:autoprefix",
     "postversion": "npm run build:all",
     "patch": "npm version patch && npm publish",
@@ -18,7 +18,6 @@
   },
   "browserslist": [
     "last 10 versions",
-    "cover 100%",
     "ie >= 6",
     "opera >= 10",
     "chrome >= 20",
@@ -45,9 +44,11 @@
   },
   "homepage": "https://github.com/KazanExpress/small-flexgrid#readme",
   "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
     "browserslist": "^4.1.1",
     "less": "^3.8.1",
     "less-plugin-autoprefix": "^2.0.0",
+    "stylus": "^0.54.5",
     "uglifycss": "0.0.29"
   }
 }

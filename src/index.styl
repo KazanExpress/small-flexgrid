@@ -1,0 +1,49 @@
+@require './styl/mixins';
+
+.row, .col {
+  @supports (display: flex) {
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+
+    [class*="col-"] {
+      flex: 0 0 auto;
+    }
+  }
+    
+  @supports not (display: flex) {
+      display: table;
+
+      [class*="col-"] {
+          display: table-cell;
+      }
+  }  
+}
+
+@supports (display: flex) {
+  .row {
+    flex-direction: row;
+  }
+    
+  .col {
+    flex-direction: column;
+  }
+    
+  .row.reverse {
+    flex-direction: row-reverse;
+  }
+    
+  .col.reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+@supports not (display: flex) {
+  .row {
+    direction: ltr;
+  }
+
+  .row.reverse {
+    direction: rtl;
+  }
+}
