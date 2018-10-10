@@ -15,14 +15,6 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
   }
-  .row [class*="col-"],
-  .col [class*="col-"] {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-       -moz-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-  }
 }
 @supports not ((display: -webkit-flex) or (display: flex)) {
   .row,
