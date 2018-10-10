@@ -35,7 +35,7 @@ You can also import mixins separately:
 @import 'small-flexgrid/src/mixins';
 ```
 
-**THEN**
+**THEN** (if using stylus only)
 
 in your styles
 
@@ -51,10 +51,10 @@ sizes = {        // basically, any breakpoints you want
 }
 col-suffix = '-my-cool'
 
-cols(cols-amount, sizes, '-my-cool') // generate all columns
+cols(cols-amount, sizes, col-suffix) // generate all columns
 
-helpers(cols-amount, sizes, '-my-cool')  // generate helpers
+helpers(cols-amount, sizes, col-suffix)  // generate helpers
 
-cols-with-helpers(cols-amount, sizes, '-my-cool') // generate all columns AND helpers
+cols-with-helpers(cols-amount, sizes, col-suffix) // generate all columns AND helpers
 ```
 
