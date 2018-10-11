@@ -473,7 +473,7 @@
     width: 20rem;
   }
   .hidden-xs {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 33.75rem) {
@@ -690,7 +690,7 @@
     width: 33.75rem;
   }
   .hidden-sm {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 48rem) {
@@ -907,7 +907,7 @@
     width: 48rem;
   }
   .hidden-md {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 63.75rem) {
@@ -1124,7 +1124,7 @@
     width: 63.75rem;
   }
   .hidden-lg {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 76.25rem) {
@@ -1341,7 +1341,7 @@
     width: 76.25rem;
   }
   .hidden-xl {
-    display: none;
+    display: none !important;
   }
 }
 .pre-xl {
@@ -1353,6 +1353,6 @@
   }
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 
