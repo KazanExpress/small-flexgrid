@@ -66,14 +66,20 @@ populate-width(name, size, next-size)
         display none !important
       }
 
-    +media(0, next-size)
+    +media(0, size)
       .pre-{name} {
         width size
+      }
+      .hidden-pre-{name} {
+        display none !important
       }
 
     +media(size)
       .post-{name} {
         width size
+      }
+      .hidden-post-{name} {
+        display none !important
       }
 
 populate-cols(name, size, cols-amount, suffix)
