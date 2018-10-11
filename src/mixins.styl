@@ -63,7 +63,7 @@ populate-width(name, size, next-size)
         width size
       }
       .hidden-{name} {
-        display none
+        display none !important
       }
 
     +media(0, next-size)
@@ -120,12 +120,12 @@ helpers(cols-amount, sizes)
     populate-width(name, size, next-size)
 
   .hidden {
-    display none
+    display none !important
   }
 
 cols-with-helpers(cols-amount, sizes, suffix = cols-amount)
   cols(cols-amount, sizes, suffix, populate-misc, populate-width)
 
   .hidden {
-    display none
+    display none !important
   }
