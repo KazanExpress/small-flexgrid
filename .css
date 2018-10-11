@@ -302,7 +302,7 @@
     display: none !important;
   }
 }
-@media (max-width: 20rem) {
+@media (max-width: 19.99rem) {
   .pre-xs {
     width: 20rem;
   }
@@ -455,7 +455,7 @@
     display: none !important;
   }
 }
-@media (max-width: 33.75rem) {
+@media (max-width: 33.74rem) {
   .pre-sm {
     width: 33.75rem;
   }
@@ -608,7 +608,7 @@
     display: none !important;
   }
 }
-@media (max-width: 48rem) {
+@media (max-width: 47.99rem) {
   .pre-md {
     width: 48rem;
   }
@@ -761,7 +761,7 @@
     display: none !important;
   }
 }
-@media (max-width: 63.75rem) {
+@media (max-width: 63.74rem) {
   .pre-lg {
     width: 63.75rem;
   }
@@ -914,7 +914,7 @@
     display: none !important;
   }
 }
-@media (max-width: 76.25rem) {
+@media (max-width: 76.24rem) {
   .pre-xl {
     width: 76.25rem;
   }
