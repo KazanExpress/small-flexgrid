@@ -1,7 +1,7 @@
 media(min = 0, max = 0)
   if max
     if min
-      @media (min-width: min) and (max-width: max)
+      @media (min-width: min) and (max-width: max - unit(.01, unit(max)))
         {block}
     else
       @media (max-width: max)

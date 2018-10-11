@@ -294,7 +294,7 @@
     order: 1;
   }
 }
-@media (min-width: 20rem) and (max-width: 33.75rem) {
+@media (min-width: 20rem) and (max-width: 33.74rem) {
   .xs {
     width: 20rem;
   }
@@ -447,7 +447,7 @@
     order: 1;
   }
 }
-@media (min-width: 33.75rem) and (max-width: 48rem) {
+@media (min-width: 33.75rem) and (max-width: 47.99rem) {
   .sm {
     width: 33.75rem;
   }
@@ -600,7 +600,7 @@
     order: 1;
   }
 }
-@media (min-width: 48rem) and (max-width: 63.75rem) {
+@media (min-width: 48rem) and (max-width: 63.74rem) {
   .md {
     width: 48rem;
   }
@@ -753,7 +753,7 @@
     order: 1;
   }
 }
-@media (min-width: 63.75rem) and (max-width: 76.25rem) {
+@media (min-width: 63.75rem) and (max-width: 76.24rem) {
   .lg {
     width: 63.75rem;
   }
@@ -930,102 +930,102 @@
     display: none !important;
   }
 }
-@media (min-width: 20rem) and (max-width: 33.75rem) {
+@media (min-width: 20rem) and (max-width: 33.74rem) {
   .hidden-xs-sm {
     display: none !important;
   }
 }
-@media (min-width: 20rem) and (max-width: 48rem) {
+@media (min-width: 20rem) and (max-width: 47.99rem) {
   .hidden-xs-md {
     display: none !important;
   }
 }
-@media (min-width: 20rem) and (max-width: 63.75rem) {
+@media (min-width: 20rem) and (max-width: 63.74rem) {
   .hidden-xs-lg {
     display: none !important;
   }
 }
-@media (min-width: 20rem) and (max-width: 76.25rem) {
+@media (min-width: 20rem) and (max-width: 76.24rem) {
   .hidden-xs-xl {
     display: none !important;
   }
 }
-@media (min-width: 33.75rem) and (max-width: 20rem) {
+@media (min-width: 33.75rem) and (max-width: 19.99rem) {
   .hidden-sm-xs {
     display: none !important;
   }
 }
-@media (min-width: 33.75rem) and (max-width: 48rem) {
+@media (min-width: 33.75rem) and (max-width: 47.99rem) {
   .hidden-sm-md {
     display: none !important;
   }
 }
-@media (min-width: 33.75rem) and (max-width: 63.75rem) {
+@media (min-width: 33.75rem) and (max-width: 63.74rem) {
   .hidden-sm-lg {
     display: none !important;
   }
 }
-@media (min-width: 33.75rem) and (max-width: 76.25rem) {
+@media (min-width: 33.75rem) and (max-width: 76.24rem) {
   .hidden-sm-xl {
     display: none !important;
   }
 }
-@media (min-width: 48rem) and (max-width: 20rem) {
+@media (min-width: 48rem) and (max-width: 19.99rem) {
   .hidden-md-xs {
     display: none !important;
   }
 }
-@media (min-width: 48rem) and (max-width: 33.75rem) {
+@media (min-width: 48rem) and (max-width: 33.74rem) {
   .hidden-md-sm {
     display: none !important;
   }
 }
-@media (min-width: 48rem) and (max-width: 63.75rem) {
+@media (min-width: 48rem) and (max-width: 63.74rem) {
   .hidden-md-lg {
     display: none !important;
   }
 }
-@media (min-width: 48rem) and (max-width: 76.25rem) {
+@media (min-width: 48rem) and (max-width: 76.24rem) {
   .hidden-md-xl {
     display: none !important;
   }
 }
-@media (min-width: 63.75rem) and (max-width: 20rem) {
+@media (min-width: 63.75rem) and (max-width: 19.99rem) {
   .hidden-lg-xs {
     display: none !important;
   }
 }
-@media (min-width: 63.75rem) and (max-width: 33.75rem) {
+@media (min-width: 63.75rem) and (max-width: 33.74rem) {
   .hidden-lg-sm {
     display: none !important;
   }
 }
-@media (min-width: 63.75rem) and (max-width: 48rem) {
+@media (min-width: 63.75rem) and (max-width: 47.99rem) {
   .hidden-lg-md {
     display: none !important;
   }
 }
-@media (min-width: 63.75rem) and (max-width: 76.25rem) {
+@media (min-width: 63.75rem) and (max-width: 76.24rem) {
   .hidden-lg-xl {
     display: none !important;
   }
 }
-@media (min-width: 76.25rem) and (max-width: 20rem) {
+@media (min-width: 76.25rem) and (max-width: 19.99rem) {
   .hidden-xl-xs {
     display: none !important;
   }
 }
-@media (min-width: 76.25rem) and (max-width: 33.75rem) {
+@media (min-width: 76.25rem) and (max-width: 33.74rem) {
   .hidden-xl-sm {
     display: none !important;
   }
 }
-@media (min-width: 76.25rem) and (max-width: 48rem) {
+@media (min-width: 76.25rem) and (max-width: 47.99rem) {
   .hidden-xl-md {
     display: none !important;
   }
 }
-@media (min-width: 76.25rem) and (max-width: 63.75rem) {
+@media (min-width: 76.25rem) and (max-width: 63.74rem) {
   .hidden-xl-lg {
     display: none !important;
   }
