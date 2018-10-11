@@ -1384,6 +1384,106 @@
     display: none !important;
   }
 }
+@media (min-width: 20rem) and (max-width: 33.75rem) {
+  .hidden-xs-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 20rem) and (max-width: 48rem) {
+  .hidden-xs-md {
+    display: none !important;
+  }
+}
+@media (min-width: 20rem) and (max-width: 63.75rem) {
+  .hidden-xs-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 20rem) and (max-width: 76.25rem) {
+  .hidden-xs-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 33.75rem) and (max-width: 20rem) {
+  .hidden-sm-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 33.75rem) and (max-width: 48rem) {
+  .hidden-sm-md {
+    display: none !important;
+  }
+}
+@media (min-width: 33.75rem) and (max-width: 63.75rem) {
+  .hidden-sm-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 33.75rem) and (max-width: 76.25rem) {
+  .hidden-sm-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 48rem) and (max-width: 20rem) {
+  .hidden-md-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 48rem) and (max-width: 33.75rem) {
+  .hidden-md-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 48rem) and (max-width: 63.75rem) {
+  .hidden-md-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 48rem) and (max-width: 76.25rem) {
+  .hidden-md-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 63.75rem) and (max-width: 20rem) {
+  .hidden-lg-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 63.75rem) and (max-width: 33.75rem) {
+  .hidden-lg-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 63.75rem) and (max-width: 48rem) {
+  .hidden-lg-md {
+    display: none !important;
+  }
+}
+@media (min-width: 63.75rem) and (max-width: 76.25rem) {
+  .hidden-lg-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 76.25rem) and (max-width: 20rem) {
+  .hidden-xl-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 76.25rem) and (max-width: 33.75rem) {
+  .hidden-xl-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 76.25rem) and (max-width: 48rem) {
+  .hidden-xl-md {
+    display: none !important;
+  }
+}
+@media (min-width: 76.25rem) and (max-width: 63.75rem) {
+  .hidden-xl-lg {
+    display: none !important;
+  }
+}
 .hidden {
   display: none !important;
 }

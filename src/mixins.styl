@@ -82,6 +82,19 @@ populate-width(name, size, next-size)
         display none !important
       }
 
+populate-diff-hidden(sizes)
+  for name, size in sizes
+    for name-next, size-next in sizes
+      if (name-next != name)
+        if (size-next != size)
+          if not selector-exists('.hidden-' + name-next + '-' + name)
+            if (name != all)
+              if (name-next != all)
+                +media(size, size-next)
+                  .hidden-{name}-{name-next} {
+                    display none !important
+                  }
+
 populate-cols(name, size, cols-amount, suffix)
   for i in range(1, cols-amount)
     value = i * 100% / cols-amount;
@@ -125,12 +138,16 @@ helpers(cols-amount, sizes)
 
     populate-width(name, size, next-size)
 
+  populate-diff-hidden(sizes)
+
   .hidden {
     display none !important
   }
 
 cols-with-helpers(cols-amount, sizes, suffix = cols-amount)
   cols(cols-amount, sizes, suffix, populate-misc, populate-width)
+
+  populate-diff-hidden(sizes)
 
   .hidden {
     display none !important
