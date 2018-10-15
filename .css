@@ -41,6 +41,7 @@
 .col-all-1 {
   flex-basis: 8.333333333333334%;
   max-width: 8.333333333333334%;
+  width: 8.333333333333334%;
 }
 .offset-all-1 {
   margin-left: 8.333333333333334%;
@@ -48,6 +49,7 @@
 .col-all-2 {
   flex-basis: 16.666666666666668%;
   max-width: 16.666666666666668%;
+  width: 16.666666666666668%;
 }
 .offset-all-2 {
   margin-left: 16.666666666666668%;
@@ -55,6 +57,7 @@
 .col-all-3 {
   flex-basis: 25%;
   max-width: 25%;
+  width: 25%;
 }
 .offset-all-3 {
   margin-left: 25%;
@@ -62,6 +65,7 @@
 .col-all-4 {
   flex-basis: 33.333333333333336%;
   max-width: 33.333333333333336%;
+  width: 33.333333333333336%;
 }
 .offset-all-4 {
   margin-left: 33.333333333333336%;
@@ -69,6 +73,7 @@
 .col-all-5 {
   flex-basis: 41.666666666666664%;
   max-width: 41.666666666666664%;
+  width: 41.666666666666664%;
 }
 .offset-all-5 {
   margin-left: 41.666666666666664%;
@@ -76,6 +81,7 @@
 .col-all-6 {
   flex-basis: 50%;
   max-width: 50%;
+  width: 50%;
 }
 .offset-all-6 {
   margin-left: 50%;
@@ -83,6 +89,7 @@
 .col-all-7 {
   flex-basis: 58.333333333333336%;
   max-width: 58.333333333333336%;
+  width: 58.333333333333336%;
 }
 .offset-all-7 {
   margin-left: 58.333333333333336%;
@@ -90,6 +97,7 @@
 .col-all-8 {
   flex-basis: 66.66666666666667%;
   max-width: 66.66666666666667%;
+  width: 66.66666666666667%;
 }
 .offset-all-8 {
   margin-left: 66.66666666666667%;
@@ -97,6 +105,7 @@
 .col-all-9 {
   flex-basis: 75%;
   max-width: 75%;
+  width: 75%;
 }
 .offset-all-9 {
   margin-left: 75%;
@@ -104,6 +113,7 @@
 .col-all-10 {
   flex-basis: 83.33333333333333%;
   max-width: 83.33333333333333%;
+  width: 83.33333333333333%;
 }
 .offset-all-10 {
   margin-left: 83.33333333333333%;
@@ -111,6 +121,7 @@
 .col-all-11 {
   flex-basis: 91.66666666666667%;
   max-width: 91.66666666666667%;
+  width: 91.66666666666667%;
 }
 .offset-all-11 {
   margin-left: 91.66666666666667%;
@@ -119,6 +130,7 @@
 .col-all {
   flex-basis: 100%;
   max-width: 100%;
+  width: 100%;
 }
 .offset-all-12 {
   margin-left: 100%;
@@ -169,6 +181,7 @@
   .col-xs-1 {
     flex-basis: 8.333333333333334%;
     max-width: 8.333333333333334%;
+    width: 8.333333333333334%;
   }
   .offset-xs-1 {
     margin-left: 8.333333333333334%;
@@ -176,6 +189,7 @@
   .col-xs-2 {
     flex-basis: 16.666666666666668%;
     max-width: 16.666666666666668%;
+    width: 16.666666666666668%;
   }
   .offset-xs-2 {
     margin-left: 16.666666666666668%;
@@ -183,6 +197,7 @@
   .col-xs-3 {
     flex-basis: 25%;
     max-width: 25%;
+    width: 25%;
   }
   .offset-xs-3 {
     margin-left: 25%;
@@ -190,6 +205,7 @@
   .col-xs-4 {
     flex-basis: 33.333333333333336%;
     max-width: 33.333333333333336%;
+    width: 33.333333333333336%;
   }
   .offset-xs-4 {
     margin-left: 33.333333333333336%;
@@ -197,6 +213,7 @@
   .col-xs-5 {
     flex-basis: 41.666666666666664%;
     max-width: 41.666666666666664%;
+    width: 41.666666666666664%;
   }
   .offset-xs-5 {
     margin-left: 41.666666666666664%;
@@ -204,6 +221,7 @@
   .col-xs-6 {
     flex-basis: 50%;
     max-width: 50%;
+    width: 50%;
   }
   .offset-xs-6 {
     margin-left: 50%;
@@ -211,6 +229,7 @@
   .col-xs-7 {
     flex-basis: 58.333333333333336%;
     max-width: 58.333333333333336%;
+    width: 58.333333333333336%;
   }
   .offset-xs-7 {
     margin-left: 58.333333333333336%;
@@ -218,6 +237,7 @@
   .col-xs-8 {
     flex-basis: 66.66666666666667%;
     max-width: 66.66666666666667%;
+    width: 66.66666666666667%;
   }
   .offset-xs-8 {
     margin-left: 66.66666666666667%;
@@ -225,6 +245,7 @@
   .col-xs-9 {
     flex-basis: 75%;
     max-width: 75%;
+    width: 75%;
   }
   .offset-xs-9 {
     margin-left: 75%;
@@ -232,6 +253,7 @@
   .col-xs-10 {
     flex-basis: 83.33333333333333%;
     max-width: 83.33333333333333%;
+    width: 83.33333333333333%;
   }
   .offset-xs-10 {
     margin-left: 83.33333333333333%;
@@ -239,6 +261,7 @@
   .col-xs-11 {
     flex-basis: 91.66666666666667%;
     max-width: 91.66666666666667%;
+    width: 91.66666666666667%;
   }
   .offset-xs-11 {
     margin-left: 91.66666666666667%;
@@ -247,6 +270,7 @@
   .col-xs {
     flex-basis: 100%;
     max-width: 100%;
+    width: 100%;
   }
   .offset-xs-12 {
     margin-left: 100%;
@@ -322,6 +346,7 @@
   .col-sm-1 {
     flex-basis: 8.333333333333334%;
     max-width: 8.333333333333334%;
+    width: 8.333333333333334%;
   }
   .offset-sm-1 {
     margin-left: 8.333333333333334%;
@@ -329,6 +354,7 @@
   .col-sm-2 {
     flex-basis: 16.666666666666668%;
     max-width: 16.666666666666668%;
+    width: 16.666666666666668%;
   }
   .offset-sm-2 {
     margin-left: 16.666666666666668%;
@@ -336,6 +362,7 @@
   .col-sm-3 {
     flex-basis: 25%;
     max-width: 25%;
+    width: 25%;
   }
   .offset-sm-3 {
     margin-left: 25%;
@@ -343,6 +370,7 @@
   .col-sm-4 {
     flex-basis: 33.333333333333336%;
     max-width: 33.333333333333336%;
+    width: 33.333333333333336%;
   }
   .offset-sm-4 {
     margin-left: 33.333333333333336%;
@@ -350,6 +378,7 @@
   .col-sm-5 {
     flex-basis: 41.666666666666664%;
     max-width: 41.666666666666664%;
+    width: 41.666666666666664%;
   }
   .offset-sm-5 {
     margin-left: 41.666666666666664%;
@@ -357,6 +386,7 @@
   .col-sm-6 {
     flex-basis: 50%;
     max-width: 50%;
+    width: 50%;
   }
   .offset-sm-6 {
     margin-left: 50%;
@@ -364,6 +394,7 @@
   .col-sm-7 {
     flex-basis: 58.333333333333336%;
     max-width: 58.333333333333336%;
+    width: 58.333333333333336%;
   }
   .offset-sm-7 {
     margin-left: 58.333333333333336%;
@@ -371,6 +402,7 @@
   .col-sm-8 {
     flex-basis: 66.66666666666667%;
     max-width: 66.66666666666667%;
+    width: 66.66666666666667%;
   }
   .offset-sm-8 {
     margin-left: 66.66666666666667%;
@@ -378,6 +410,7 @@
   .col-sm-9 {
     flex-basis: 75%;
     max-width: 75%;
+    width: 75%;
   }
   .offset-sm-9 {
     margin-left: 75%;
@@ -385,6 +418,7 @@
   .col-sm-10 {
     flex-basis: 83.33333333333333%;
     max-width: 83.33333333333333%;
+    width: 83.33333333333333%;
   }
   .offset-sm-10 {
     margin-left: 83.33333333333333%;
@@ -392,6 +426,7 @@
   .col-sm-11 {
     flex-basis: 91.66666666666667%;
     max-width: 91.66666666666667%;
+    width: 91.66666666666667%;
   }
   .offset-sm-11 {
     margin-left: 91.66666666666667%;
@@ -400,6 +435,7 @@
   .col-sm {
     flex-basis: 100%;
     max-width: 100%;
+    width: 100%;
   }
   .offset-sm-12 {
     margin-left: 100%;
@@ -475,6 +511,7 @@
   .col-md-1 {
     flex-basis: 8.333333333333334%;
     max-width: 8.333333333333334%;
+    width: 8.333333333333334%;
   }
   .offset-md-1 {
     margin-left: 8.333333333333334%;
@@ -482,6 +519,7 @@
   .col-md-2 {
     flex-basis: 16.666666666666668%;
     max-width: 16.666666666666668%;
+    width: 16.666666666666668%;
   }
   .offset-md-2 {
     margin-left: 16.666666666666668%;
@@ -489,6 +527,7 @@
   .col-md-3 {
     flex-basis: 25%;
     max-width: 25%;
+    width: 25%;
   }
   .offset-md-3 {
     margin-left: 25%;
@@ -496,6 +535,7 @@
   .col-md-4 {
     flex-basis: 33.333333333333336%;
     max-width: 33.333333333333336%;
+    width: 33.333333333333336%;
   }
   .offset-md-4 {
     margin-left: 33.333333333333336%;
@@ -503,6 +543,7 @@
   .col-md-5 {
     flex-basis: 41.666666666666664%;
     max-width: 41.666666666666664%;
+    width: 41.666666666666664%;
   }
   .offset-md-5 {
     margin-left: 41.666666666666664%;
@@ -510,6 +551,7 @@
   .col-md-6 {
     flex-basis: 50%;
     max-width: 50%;
+    width: 50%;
   }
   .offset-md-6 {
     margin-left: 50%;
@@ -517,6 +559,7 @@
   .col-md-7 {
     flex-basis: 58.333333333333336%;
     max-width: 58.333333333333336%;
+    width: 58.333333333333336%;
   }
   .offset-md-7 {
     margin-left: 58.333333333333336%;
@@ -524,6 +567,7 @@
   .col-md-8 {
     flex-basis: 66.66666666666667%;
     max-width: 66.66666666666667%;
+    width: 66.66666666666667%;
   }
   .offset-md-8 {
     margin-left: 66.66666666666667%;
@@ -531,6 +575,7 @@
   .col-md-9 {
     flex-basis: 75%;
     max-width: 75%;
+    width: 75%;
   }
   .offset-md-9 {
     margin-left: 75%;
@@ -538,6 +583,7 @@
   .col-md-10 {
     flex-basis: 83.33333333333333%;
     max-width: 83.33333333333333%;
+    width: 83.33333333333333%;
   }
   .offset-md-10 {
     margin-left: 83.33333333333333%;
@@ -545,6 +591,7 @@
   .col-md-11 {
     flex-basis: 91.66666666666667%;
     max-width: 91.66666666666667%;
+    width: 91.66666666666667%;
   }
   .offset-md-11 {
     margin-left: 91.66666666666667%;
@@ -553,6 +600,7 @@
   .col-md {
     flex-basis: 100%;
     max-width: 100%;
+    width: 100%;
   }
   .offset-md-12 {
     margin-left: 100%;
@@ -628,6 +676,7 @@
   .col-lg-1 {
     flex-basis: 8.333333333333334%;
     max-width: 8.333333333333334%;
+    width: 8.333333333333334%;
   }
   .offset-lg-1 {
     margin-left: 8.333333333333334%;
@@ -635,6 +684,7 @@
   .col-lg-2 {
     flex-basis: 16.666666666666668%;
     max-width: 16.666666666666668%;
+    width: 16.666666666666668%;
   }
   .offset-lg-2 {
     margin-left: 16.666666666666668%;
@@ -642,6 +692,7 @@
   .col-lg-3 {
     flex-basis: 25%;
     max-width: 25%;
+    width: 25%;
   }
   .offset-lg-3 {
     margin-left: 25%;
@@ -649,6 +700,7 @@
   .col-lg-4 {
     flex-basis: 33.333333333333336%;
     max-width: 33.333333333333336%;
+    width: 33.333333333333336%;
   }
   .offset-lg-4 {
     margin-left: 33.333333333333336%;
@@ -656,6 +708,7 @@
   .col-lg-5 {
     flex-basis: 41.666666666666664%;
     max-width: 41.666666666666664%;
+    width: 41.666666666666664%;
   }
   .offset-lg-5 {
     margin-left: 41.666666666666664%;
@@ -663,6 +716,7 @@
   .col-lg-6 {
     flex-basis: 50%;
     max-width: 50%;
+    width: 50%;
   }
   .offset-lg-6 {
     margin-left: 50%;
@@ -670,6 +724,7 @@
   .col-lg-7 {
     flex-basis: 58.333333333333336%;
     max-width: 58.333333333333336%;
+    width: 58.333333333333336%;
   }
   .offset-lg-7 {
     margin-left: 58.333333333333336%;
@@ -677,6 +732,7 @@
   .col-lg-8 {
     flex-basis: 66.66666666666667%;
     max-width: 66.66666666666667%;
+    width: 66.66666666666667%;
   }
   .offset-lg-8 {
     margin-left: 66.66666666666667%;
@@ -684,6 +740,7 @@
   .col-lg-9 {
     flex-basis: 75%;
     max-width: 75%;
+    width: 75%;
   }
   .offset-lg-9 {
     margin-left: 75%;
@@ -691,6 +748,7 @@
   .col-lg-10 {
     flex-basis: 83.33333333333333%;
     max-width: 83.33333333333333%;
+    width: 83.33333333333333%;
   }
   .offset-lg-10 {
     margin-left: 83.33333333333333%;
@@ -698,6 +756,7 @@
   .col-lg-11 {
     flex-basis: 91.66666666666667%;
     max-width: 91.66666666666667%;
+    width: 91.66666666666667%;
   }
   .offset-lg-11 {
     margin-left: 91.66666666666667%;
@@ -706,6 +765,7 @@
   .col-lg {
     flex-basis: 100%;
     max-width: 100%;
+    width: 100%;
   }
   .offset-lg-12 {
     margin-left: 100%;
@@ -781,6 +841,7 @@
   .col-xl-1 {
     flex-basis: 8.333333333333334%;
     max-width: 8.333333333333334%;
+    width: 8.333333333333334%;
   }
   .offset-xl-1 {
     margin-left: 8.333333333333334%;
@@ -788,6 +849,7 @@
   .col-xl-2 {
     flex-basis: 16.666666666666668%;
     max-width: 16.666666666666668%;
+    width: 16.666666666666668%;
   }
   .offset-xl-2 {
     margin-left: 16.666666666666668%;
@@ -795,6 +857,7 @@
   .col-xl-3 {
     flex-basis: 25%;
     max-width: 25%;
+    width: 25%;
   }
   .offset-xl-3 {
     margin-left: 25%;
@@ -802,6 +865,7 @@
   .col-xl-4 {
     flex-basis: 33.333333333333336%;
     max-width: 33.333333333333336%;
+    width: 33.333333333333336%;
   }
   .offset-xl-4 {
     margin-left: 33.333333333333336%;
@@ -809,6 +873,7 @@
   .col-xl-5 {
     flex-basis: 41.666666666666664%;
     max-width: 41.666666666666664%;
+    width: 41.666666666666664%;
   }
   .offset-xl-5 {
     margin-left: 41.666666666666664%;
@@ -816,6 +881,7 @@
   .col-xl-6 {
     flex-basis: 50%;
     max-width: 50%;
+    width: 50%;
   }
   .offset-xl-6 {
     margin-left: 50%;
@@ -823,6 +889,7 @@
   .col-xl-7 {
     flex-basis: 58.333333333333336%;
     max-width: 58.333333333333336%;
+    width: 58.333333333333336%;
   }
   .offset-xl-7 {
     margin-left: 58.333333333333336%;
@@ -830,6 +897,7 @@
   .col-xl-8 {
     flex-basis: 66.66666666666667%;
     max-width: 66.66666666666667%;
+    width: 66.66666666666667%;
   }
   .offset-xl-8 {
     margin-left: 66.66666666666667%;
@@ -837,6 +905,7 @@
   .col-xl-9 {
     flex-basis: 75%;
     max-width: 75%;
+    width: 75%;
   }
   .offset-xl-9 {
     margin-left: 75%;
@@ -844,6 +913,7 @@
   .col-xl-10 {
     flex-basis: 83.33333333333333%;
     max-width: 83.33333333333333%;
+    width: 83.33333333333333%;
   }
   .offset-xl-10 {
     margin-left: 83.33333333333333%;
@@ -851,6 +921,7 @@
   .col-xl-11 {
     flex-basis: 91.66666666666667%;
     max-width: 91.66666666666667%;
+    width: 91.66666666666667%;
   }
   .offset-xl-11 {
     margin-left: 91.66666666666667%;
@@ -859,6 +930,7 @@
   .col-xl {
     flex-basis: 100%;
     max-width: 100%;
+    width: 100%;
   }
   .offset-xl-12 {
     margin-left: 100%;
